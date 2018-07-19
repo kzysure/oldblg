@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-19T03:19:07.517Z</updated>
+  <updated>2018-07-19T03:50:41.230Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>快速修改mysql密码</title>
+    <title>Linux/Mac 通过控制台快速修改mysql密码</title>
     <link href="http://yoursite.com/2018/07/19/%E5%BF%AB%E9%80%9F%E4%BF%AE%E6%94%B9mysql%E5%AF%86%E7%A0%81/"/>
     <id>http://yoursite.com/2018/07/19/快速修改mysql密码/</id>
     <published>2018-07-19T03:16:35.000Z</published>
-    <updated>2018-07-19T03:19:07.517Z</updated>
+    <updated>2018-07-19T03:50:41.230Z</updated>
     
     <content type="html"><![CDATA[<h3 id="此方法适用于Mac-Linux平台"><a href="#此方法适用于Mac-Linux平台" class="headerlink" title="此方法适用于Mac/Linux平台"></a>此方法适用于Mac/Linux平台</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysqladmin -u root -p password <span class="string">"newpassword"</span></span><br></pre></td></tr></table></figure><p>然后输入原来的密码<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Enter password: [oldpassword]</span><br></pre></td></tr></table></figure></p>]]></content>
     
