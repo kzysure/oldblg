@@ -5,9 +5,9 @@
   <subtitle>多半是自言自语，如有错误欢迎指正。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://www.kzysure.cn/"/>
   <updated>2018-07-19T03:50:45.573Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://www.kzysure.cn/</id>
   
   <author>
     <name>生睿</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Linux/Mac 通过控制台快速修改mysql密码</title>
-    <link href="http://yoursite.com/2018/07/19/%E5%BF%AB%E9%80%9F%E4%BF%AE%E6%94%B9mysql%E5%AF%86%E7%A0%81/"/>
-    <id>http://yoursite.com/2018/07/19/快速修改mysql密码/</id>
+    <link href="http://www.kzysure.cn/2018/07/19/%E5%BF%AB%E9%80%9F%E4%BF%AE%E6%94%B9mysql%E5%AF%86%E7%A0%81/"/>
+    <id>http://www.kzysure.cn/2018/07/19/快速修改mysql密码/</id>
     <published>2018-07-19T03:16:35.000Z</published>
     <updated>2018-07-19T03:50:45.573Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/05/18/hello-world/"/>
-    <id>http://yoursite.com/2018/05/18/hello-world/</id>
+    <link href="http://www.kzysure.cn/2018/05/18/hello-world/"/>
+    <id>http://www.kzysure.cn/2018/05/18/hello-world/</id>
     <published>2018-05-18T09:16:49.989Z</published>
     <updated>2018-05-18T09:16:49.990Z</updated>
     
