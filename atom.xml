@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.kzysure.cn/"/>
-  <updated>2018-07-24T01:37:26.385Z</updated>
+  <updated>2018-07-26T05:45:00.742Z</updated>
   <id>http://www.kzysure.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java/JDK动态代理</title>
+    <link href="http://www.kzysure.cn/2018/07/26/Java-JDK%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86/"/>
+    <id>http://www.kzysure.cn/2018/07/26/Java-JDK动态代理/</id>
+    <published>2018-07-26T05:39:24.000Z</published>
+    <updated>2018-07-26T05:45:00.742Z</updated>
+    
+    <content type="html"><![CDATA[<p>创建JDK动态代理需要先实现InvocationHandler接口，并重写其中的invoke方法，具体步骤如下：</p><h2 id="创建一个Animal动物接口-准备步骤一"><a href="#创建一个Animal动物接口-准备步骤一" class="headerlink" title="创建一个Animal动物接口(准备步骤一)"></a>创建一个Animal动物接口(准备步骤一)</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">public interface AminalInterface &#123;</span><br><span class="line"></span><br><span class="line">  /**</span><br><span class="line">   * 跑</span><br><span class="line">   */</span><br><span class="line">  void run();</span><br><span class="line"></span><br><span class="line">  /**</span><br><span class="line">   * 吃</span><br><span class="line">   */</span><br><span class="line">  void eat();</span><br><span class="line"></span><br><span class="line">  /**</span><br><span class="line">   * 唱歌</span><br><span class="line">   */</span><br><span class="line">  void sing();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="创建一个类实现InvocationHandler接口。"><a href="#创建一个类实现InvocationHandler接口。" class="headerlink" title="创建一个类实现InvocationHandler接口。"></a>创建一个类实现InvocationHandler接口。</h2><h2 id="给Proxy类提供委托类的ClassLoader和Interfaces来创建动态代理类。"><a href="#给Proxy类提供委托类的ClassLoader和Interfaces来创建动态代理类。" class="headerlink" title="给Proxy类提供委托类的ClassLoader和Interfaces来创建动态代理类。"></a>给Proxy类提供委托类的ClassLoader和Interfaces来创建动态代理类。</h2><h2 id="利用反射机制得到动态代理类的构造函数。"><a href="#利用反射机制得到动态代理类的构造函数。" class="headerlink" title="利用反射机制得到动态代理类的构造函数。"></a>利用反射机制得到动态代理类的构造函数。</h2><h2 id="利用动态代理类的构造函数创建动态代理类对象。"><a href="#利用动态代理类的构造函数创建动态代理类对象。" class="headerlink" title="利用动态代理类的构造函数创建动态代理类对象。"></a>利用动态代理类的构造函数创建动态代理类对象。</h2><p>作者：<br>链接：<a href="https://www.imooc.com/article/22360#" target="_blank" rel="noopener">https://www.imooc.com/article/22360#</a><br>来源：慕课网<br>本文原创发布于慕课网 ，转载请注明出处，谢谢合作</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;创建JDK动态代理需要先实现InvocationHandler接口，并重写其中的invoke方法，具体步骤如下：&lt;/p&gt;
+&lt;h2 id=&quot;创建一个Animal动物接口-准备步骤一&quot;&gt;&lt;a href=&quot;#创建一个Animal动物接口-准备步骤一&quot; class=&quot;headerl
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>HttpClient封装类</title>
