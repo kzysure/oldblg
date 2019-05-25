@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.kzysure.cn/"/>
-  <updated>2018-07-26T06:02:15.420Z</updated>
+  <updated>2019-05-25T08:58:43.862Z</updated>
   <id>http://www.kzysure.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java/Thrift监听bug</title>
+    <link href="http://www.kzysure.cn/2019/05/25/Java-Thrift%E7%9B%91%E5%90%ACbug/"/>
+    <id>http://www.kzysure.cn/2019/05/25/Java-Thrift监听bug/</id>
+    <published>2019-05-25T08:54:40.000Z</published>
+    <updated>2019-05-25T08:58:43.862Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>使用Thrift RPC框架时，Python模块不要监听localhost，请监听127.0.0.1  不然会导致连接被拒绝的情况</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;使用Thrift RPC框架时，Python模块不要监听localhost，请监听127.0.0.1  不然会导致连接被拒绝的情况&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Java/JDK动态代理</title>
