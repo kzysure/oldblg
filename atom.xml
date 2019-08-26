@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.kzysure.cn/"/>
-  <updated>2019-05-25T08:58:43.862Z</updated>
+  <updated>2019-08-26T06:26:40.216Z</updated>
   <id>http://www.kzysure.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试hexo-admin</title>
+    <link href="http://www.kzysure.cn/2019/08/26/%E6%B5%8B%E8%AF%95hexo-admin/"/>
+    <id>http://www.kzysure.cn/2019/08/26/测试hexo-admin/</id>
+    <published>2019-08-26T06:25:00.000Z</published>
+    <updated>2019-08-26T06:26:40.216Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="挺好用的这破玩意"><a href="#挺好用的这破玩意" class="headerlink" title="挺好用的这破玩意"></a>挺好用的这破玩意</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;挺好用的这破玩意&quot;&gt;&lt;a href=&quot;#挺好用的这破玩意&quot; class=&quot;headerlink&quot; title=&quot;挺好用的这破玩意&quot;&gt;&lt;/a&gt;挺好用的这破玩意&lt;/h2&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Java/Thrift监听bug</title>
